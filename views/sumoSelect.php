@@ -1,6 +1,8 @@
 <?php
 namespace nurielmeni\sumoSelect\views;
 
+use yii\web\View;
+
 $sumoConfig = json_encode($config);
 ?>
 
@@ -17,4 +19,4 @@ $js = <<<JS
     $('#$name').SumoSelect(JSON.parse('$sumoConfig'));
 JS;
 
-$this->registerJs($js, yii\web\View::POS_READY);
+$this->registerJs($js, View::POS_READY);
