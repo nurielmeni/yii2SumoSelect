@@ -1,0 +1,25 @@
+{
+    "name": "nurielmeni/yii2-sumoSelect",
+    "type": "yii2-extension",
+    "description": "The Imagine integration for the Yii framework",
+    "keywords": ["yii2", "imagine", "image", "helper"],
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/nurielmeni/yii2SumoSelect"
+    },
+    "authors": [
+        {
+            "name": "Meni Nuriel",
+            "email": "nurielmeni@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "bower-asset/jquery": ">=1.11.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii\\sumoSelect\\": ""
+        }
+    }
+}
