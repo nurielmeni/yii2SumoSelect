@@ -1,6 +1,6 @@
 <?php
 
-namespace app\widgets\sumoSelect\assets;
+namespace nurielmeni\SumoSelect\assets;
 
 use yii\web\AssetBundle;
 
@@ -13,7 +13,7 @@ class SumoSelectAsset extends AssetBundle
     public $publishOptions = [
         'forceCopy' => YII_DEBUG
     ];
-    public $sourcePath = '@app/widgets/sumoSelect/assets';
+    public $sourcePath = '@nurielmeni/sumoSelect/assets';
     public $css = [
         'css/sumoselect.min.css',
         'css/sumoselect-rtl.css',

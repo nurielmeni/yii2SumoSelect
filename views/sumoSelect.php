@@ -1,6 +1,5 @@
 <?php
-
-use app\helpers\Helper;
+namespace nurielmeni\SumoSelect\views;
 
 $sumoConfig = json_encode($config);
 ?>

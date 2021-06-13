@@ -1,6 +1,7 @@
 <?php
 
-namespace app\widgets\SumoSelect;
+namespace nurielmeni\SumoSelect;
+
 
 use yii\base\Widget;
 use yii\helpers\Url;
