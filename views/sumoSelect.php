@@ -1,5 +1,5 @@
 <?php
-namespace nurielmeni\SumoSelect\views;
+namespace nurielmeni\sumoSelect\views;
 
 $sumoConfig = json_encode($config);
 ?>

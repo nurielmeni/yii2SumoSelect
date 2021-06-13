@@ -1,11 +1,11 @@
 <?php
 
-namespace nurielmeni\SumoSelect;
+namespace nurielmeni\sumoSelect;
 
 
 use yii\base\Widget;
 use yii\helpers\Url;
-use app\widgets\sumoSelect\assets\SumoSelectAsset;
+use nurielmeni\sumoSelect\assets\SumoSelectAsset;
 
 class SumoSelectWidget extends Widget
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace nurielmeni\SumoSelect\assets;
+namespace nurielmeni\sumoSelect\assets;
 
 use yii\web\AssetBundle;
 
