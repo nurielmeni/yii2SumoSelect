@@ -11,3 +11,11 @@
   margin-right: -35px !important;
   margin-left: 0 !important;
 }
+.SumoSelect > .CaptionCont > span {
+  padding-right: 0;
+  padding-left: 30px;
+}
+.SumoSelect > .CaptionCont > label {
+  left: 0;
+  right: unset;
+}
